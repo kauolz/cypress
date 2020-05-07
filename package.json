@@ -1,0 +1,25 @@
+{
+  "name": "cypressTest",
+  "version": "1.0.0",
+  "description": "Test - Cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauolz/cypress.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "kauolz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauolz/cypress/issues"
+  },
+  "homepage": "https://github.com/kauolz/cypress#readme",
+  "devDependencies": {
+    "cypress": "^4.5.0"
+  }
+}
