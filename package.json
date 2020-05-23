@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/kauolz/cypress#readme",
   "devDependencies": {
-    "cypress": "^4.5.0"
+    "cypress": "^4.6.0"
   }
 }
