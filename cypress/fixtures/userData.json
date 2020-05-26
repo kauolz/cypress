@@ -1,0 +1,17 @@
+{
+    "firstName" : "Arnold",	
+    "lastName" : "Boczek",	
+    "phone" : "997"	,
+    "email" : "boczuś@buziaczek.cmok",	
+    
+    "address1" : "ul. Kiepska 34/16",
+    "address2" : "IV piętro",
+    "city" : "Wrocław",	
+    "state" : "Dolnośląskie",	
+    "postalCode" : "12-345",	
+    "country" : "YUGOSLAVIA",	
+
+    "userName" : "boczeq",	
+    "password" : "password1",	
+    "confirmPassword" : "password1"	
+}
