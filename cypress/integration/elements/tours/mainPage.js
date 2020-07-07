@@ -10,9 +10,8 @@ const registerBlock = '[alt="Register"]'
 const linksBlock = '[alt="Links"]'
 
 export function checkMainPageOpened() {
-        cy.visit('http://newtours.demoaut.com/mercurywelcome.php')
+        cy.visit('http://newtours.demoaut.com')
         cy.get(featuredDestinationBlock).should('be.visible')
-        // cy.contains(featuredDestinationBlock)
         cy.get(specialsBlock).should('be.visible')
         cy.get(tourTipsBlock).should('be.visible')
         cy.get(findFightBlock).should('be.visible')
@@ -20,5 +19,4 @@ export function checkMainPageOpened() {
         cy.get(vacationsBlock).should('be.visible')
         cy.get(registerBlock).should('be.visible')
         cy.get(linksBlock).should('be.visible')
-        // cy.contains(fakeTopMenu).should('be.visible')
 }

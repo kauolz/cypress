@@ -4,7 +4,14 @@
   "description": "Test - Cypress ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx cypress open",
+    "start:chrome": "npx cypress open --browser chrome",
+    "start:firefox": "npx cypress open --browser firefox",
+    "start:headless": "npx cypress open --headless",
+    "start:chrome mercury": "npx cypress open --browser chrome --spec tests/mercuryToursTest.js",
+    "start:firefox mercury": "npx cypress open --browser firefox --spec tests/mercuryToursTest.js",
+    "start:headless mercury": "npx cypress open --headless --spec tests/mercuryToursTest.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +27,6 @@
   },
   "homepage": "https://github.com/kauolz/cypress#readme",
   "devDependencies": {
-    "cypress": "^4.6.0"
+    "cypress": "^4.7.0"
   }
 }

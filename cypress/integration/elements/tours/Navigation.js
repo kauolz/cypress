@@ -24,7 +24,6 @@ export function checkNavigation() {
         checkHeader()
         checkFooter()
         checkLeftMenu()
-        // cy.contains(fakeTopMenu).should('be.visible')
 }
 
 export function checkHeader(){
